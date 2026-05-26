@@ -1,0 +1,53 @@
+#padre {
+
+    background-color: skyblue;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 150px;
+    
+    
+    
+    
+}
+
+.hijo {
+
+    background-color: blue;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+    color: rgb(162, 146, 177);
+}
+
+.hijo:nth-child(1) {
+
+  background-color: yellow;
+    
+    
+}
+
+.hijo:nth-child(2) {
+
+  
+    order: 3;
+ 
+   
+
+}
+
+.hijo:nth-child(3) {
+
+    background-color:darkgrey;
+    
+}
+
+@media (width < 900px) {
+
+    .hijo {
+
+        background-color: chartreuse;
+    }
+}

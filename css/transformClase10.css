@@ -1,0 +1,17 @@
+#cajaPrincipal {
+background-color: blue;
+height: 50px;
+width: 50px;
+border-radius: 4px;
+transform: skew(300deg, 20deg);
+rotate: 100deg;
+transform: translate(100px 30px);
+
+
+
+}
+
+.cajas {
+    background-color: pink;
+    height: 100px;
+}

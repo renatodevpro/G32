@@ -1,0 +1,26 @@
+button {
+
+    background-color: goldenrod;
+    border: 0;
+    border-radius: 4px;
+    padding: 10px 20px;
+    transition: background-color .1s;
+
+}
+
+/* SEUDOCLASE cuando pasamos el mouse por encima */
+
+button:hover {
+    background-color: blue;
+    
+
+}
+
+button:active {
+    background-color: rgb(0, 0, 0);
+}
+
+input:focus {
+    background-color: antiquewhite;
+}
+

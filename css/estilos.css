@@ -1,0 +1,40 @@
+
+        /* ESO DE ABAJO AL LADO DE LA P SE LLAMA LLAVE */
+        p {
+            /* PARA CAMBIAR EL COLOR DEL TEXTO */
+            color: blue;
+            /* PARA CAMBIAR EL COLOR DE FONDO */
+            background-color: lightcoral;
+            /* PARA CAMBIAR EL TAMANO DE LETRA */
+            font-size: 50px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-align: justify;
+            width: 500px;
+            height: fit-content;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+    
+        h1 {
+            color: crimson;
+        }
+
+        #unico {
+
+            color:black ;
+            background-color: grey;
+            font-weight: bold;
+            font-family:sans-serif;
+            font-style: italic;
+            margin-left: 100px;
+            border: 10px solid black;
+            
+            
+        }
+
+        #titulo {
+
+            color: pink;
+            background-color: aqua;
+        }
+   

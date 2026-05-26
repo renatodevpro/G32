@@ -1,0 +1,70 @@
+body {
+    height: 3000px;
+
+
+}
+
+#caja {
+    text-align:center;
+    align-content:center;
+    font-size: 40px;
+    border-radius: 20px;
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+
+    
+
+    position: fixed;
+    left:0%;
+    bottom:0%;
+    
+    
+
+}
+
+nav {
+    background-color:transparent;
+    color:blue;
+    position: fixed;
+    width: 100%;
+    
+    top: 0;
+    left: 0;
+
+    a {
+        color: violet;
+        font-style:italic;
+        font-weight:bolder;
+    }
+
+
+
+}
+
+#whatsapp {
+    position: sticky;
+    top: 100 px;
+   
+    right: 10px;
+    bottom: 10px;
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    border-radius: 50%;
+    text-align: center;
+    align-content: center;
+    cursor: pointer;
+    box-shadow: 0 10px 10px gray;
+
+  }
+
+  #bloque {
+
+    height: 300px;
+    background-color: beige;
+  }
+
+
+
+
