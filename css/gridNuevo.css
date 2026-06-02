@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+#contenedor {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 30px;
+    column-gap: 50px;
+    grid-auto-rows: 50px;
+    
+    p {
+        background-color: blue;
+    }
+
+    p:nth-child(4) {
+        background-color: aquamarine;
+    } 
+
+}
+
+#contenedor p:nth-child(4) {
+background-color: blueviolet;
+grid-row: 4/6;
+grid-column: 2/3;
+
+}
+
+#contenedor p:nth-child(3n) {
+    background-color: bisque;
+}
+
+#contenedor p:nth-child(1) {
+    background-color: aqua;
+    grid-column: 1/3;
+}
+
+ 
